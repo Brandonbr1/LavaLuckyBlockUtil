@@ -1,0 +1,21 @@
+{
+  "_fv": 24,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Lava Potion",
+    "splashName": "Splash Potion of Lava Potion",
+    "lingeringName": "Lingering Potion of Lava Potion",
+    "arrowName": "Arrow of Lava Potion",
+    "effects": [
+      {
+        "effect": {
+          "value": "FIRE_RESISTANCE"
+        },
+        "duration": 9999,
+        "amplifier": 1,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

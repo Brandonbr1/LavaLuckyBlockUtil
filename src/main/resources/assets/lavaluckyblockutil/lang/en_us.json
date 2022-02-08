@@ -1,0 +1,15 @@
+{
+  "item.minecraft.splash_potion.effect.lava_potion": "Splash Potion of Lava Potion",
+  "item.lavaluckyblockutil.lava_armor_helmet": "Lava Armor Helmet",
+  "item.minecraft.potion.effect.lava_potion": "Potion of Lava Potion",
+  "item.lavaluckyblockutil.lava_pickaxe": "Lava Pickaxe",
+  "item.minecraft.tipped_arrow.effect.lava_potion": "Arrow of Lava Potion",
+  "item.minecraft.lingering_potion.effect.lava_potion": "Lingering Potion of Lava Potion",
+  "item.lavaluckyblockutil.lava_dynomite": "Lava Dynomite",
+  "item.lavaluckyblockutil.lava_armor_boots": "Lava Armor Boots",
+  "item.lavaluckyblockutil.lava_apple": "Lava Apple",
+  "item.lavaluckyblockutil.lava_armor_leggings": "Lava Armor Leggings",
+  "item.lavaluckyblockutil.lava_armor_chestplate": "Lava Armor Body",
+  "item.lavaluckyblockutil.lava_sword": "Lava Sword",
+  "block.lavaluckyblockutil.lava_tnt": "Lava TNT"
+}

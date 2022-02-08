@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="lavaluckyblockutil"
+version="1.0.0"
+displayName="Lavaluckyblockutil"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://brandonbr1.github.io/"
+logoFile="logo.png"
+authors="Brandonbr1"
+description='''
+required for Lava Lucky block for 1.1.6.5!
+'''
+
+[[dependencies.lavaluckyblockutil]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

@@ -1,0 +1,193 @@
+{
+  "mod_elements": [
+    {
+      "name": "LavaPickaxe",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_pickaxe"
+    },
+    {
+      "name": "LavaTNTOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_tnt_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LavaTNT",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_tnt"
+    },
+    {
+      "name": "LavaArmor",
+      "type": "armor",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "LavaappleFoodEaten",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaapple_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LavaApple",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_apple"
+    },
+    {
+      "name": "LavaSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "LavaSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_sword"
+    },
+    {
+      "name": "LavaDynomiteProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_dynomite_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LavaDynomite",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_dynomite"
+    },
+    {
+      "name": "LavaPotion",
+      "type": "potion",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_potion"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.splash_potion.effect.lava_potion": "Splash Potion of Lava Potion",
+      "item.lavaluckyblockutil.lava_armor_helmet": "Lava Armor Helmet",
+      "item.minecraft.potion.effect.lava_potion": "Potion of Lava Potion",
+      "item.lavaluckyblockutil.lava_pickaxe": "Lava Pickaxe",
+      "item.minecraft.tipped_arrow.effect.lava_potion": "Arrow of Lava Potion",
+      "item.minecraft.lingering_potion.effect.lava_potion": "Lingering Potion of Lava Potion",
+      "item.lavaluckyblockutil.lava_dynomite": "Lava Dynomite",
+      "item.lavaluckyblockutil.lava_armor_boots": "Lava Armor Boots",
+      "item.lavaluckyblockutil.lava_apple": "Lava Apple",
+      "item.lavaluckyblockutil.lava_armor_leggings": "Lava Armor Leggings",
+      "item.lavaluckyblockutil.lava_armor_chestplate": "Lava Armor Body",
+      "item.lavaluckyblockutil.lava_sword": "Lava Sword",
+      "block.lavaluckyblockutil.lava_tnt": "Lava TNT"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "lavaluckyblockutil",
+    "modName": "Lavaluckyblockutil",
+    "version": "1.0.0",
+    "description": "required for Lava Lucky block for 1.1.6.5!",
+    "author": "Brandonbr1",
+    "websiteURL": "https://brandonbr1.github.io/",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "lva_dynomite",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "io.github.brandonbr1.lavaluckyblockutil",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
