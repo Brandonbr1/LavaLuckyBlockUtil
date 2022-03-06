@@ -144,6 +144,78 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lava_potion"
+    },
+    {
+      "name": "SpeedSoulItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_soul_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedSoul",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_soul"
+    },
+    {
+      "name": "StrengthSoulItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_soul_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StrengthSoul",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_soul"
+    },
+    {
+      "name": "RegenerationSoul",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regeneration_soul"
+    },
+    {
+      "name": "RegenerationSoulItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "regeneration_soul_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -158,10 +230,13 @@
       "item.minecraft.lingering_potion.effect.lava_potion": "Lingering Potion of Lava Potion",
       "item.lavaluckyblockutil.lava_dynomite": "Lava Dynomite",
       "item.lavaluckyblockutil.lava_armor_boots": "Lava Armor Boots",
+      "item.lavaluckyblockutil.speed_soul": "Speed Soul",
       "item.lavaluckyblockutil.lava_apple": "Lava Apple",
       "item.lavaluckyblockutil.lava_armor_leggings": "Lava Armor Leggings",
+      "item.lavaluckyblockutil.regeneration_soul": "Regeneration Soul",
       "item.lavaluckyblockutil.lava_armor_chestplate": "Lava Armor Body",
       "item.lavaluckyblockutil.lava_sword": "Lava Sword",
+      "item.lavaluckyblockutil.strength_soul": "Strength Soul",
       "block.lavaluckyblockutil.lava_tnt": "Lava TNT"
     }
   },

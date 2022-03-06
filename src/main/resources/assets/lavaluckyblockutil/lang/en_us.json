@@ -7,9 +7,12 @@
   "item.minecraft.lingering_potion.effect.lava_potion": "Lingering Potion of Lava Potion",
   "item.lavaluckyblockutil.lava_dynomite": "Lava Dynomite",
   "item.lavaluckyblockutil.lava_armor_boots": "Lava Armor Boots",
+  "item.lavaluckyblockutil.speed_soul": "Speed Soul",
   "item.lavaluckyblockutil.lava_apple": "Lava Apple",
   "item.lavaluckyblockutil.lava_armor_leggings": "Lava Armor Leggings",
+  "item.lavaluckyblockutil.regeneration_soul": "Regeneration Soul",
   "item.lavaluckyblockutil.lava_armor_chestplate": "Lava Armor Body",
   "item.lavaluckyblockutil.lava_sword": "Lava Sword",
+  "item.lavaluckyblockutil.strength_soul": "Strength Soul",
   "block.lavaluckyblockutil.lava_tnt": "Lava TNT"
 }
