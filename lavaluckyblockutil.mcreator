@@ -272,27 +272,59 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "jump_soul"
+    },
+    {
+      "name": "Flight",
+      "type": "potioneffect",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight"
+    },
+    {
+      "name": "FlightPotion",
+      "type": "potion",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight_potion"
+    },
+    {
+      "name": "FlightProcedure",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flight_procedure",
+      "metadata": {
+        "dependencies": []
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.lavaluckyblockutil.resistance_soul": "Resistance Soul",
-      "item.minecraft.splash_potion.effect.lava_potion": "Splash Potion of Lava Potion",
       "item.lavaluckyblockutil.lava_armor_helmet": "Lava Armor Helmet",
       "item.minecraft.potion.effect.lava_potion": "Potion of Lava Potion",
-      "item.lavaluckyblockutil.lava_pickaxe": "Lava Pickaxe",
       "item.minecraft.tipped_arrow.effect.lava_potion": "Arrow of Lava Potion",
+      "effect.flight": "FlightEffect",
+      "item.minecraft.tipped_arrow.effect.flight_potion": "Arrow of Flight Potion",
+      "item.lavaluckyblockutil.speed_soul": "Speed Soul",
+      "item.minecraft.potion.effect.flight_potion": "Potion of Flight Potion",
+      "item.minecraft.splash_potion.effect.flight_potion": "Splash Potion of Flight Potion",
+      "item.lavaluckyblockutil.lava_apple": "Lava Apple",
+      "item.lavaluckyblockutil.regeneration_soul": "Regeneration Soul",
+      "item.lavaluckyblockutil.resistance_soul": "Resistance Soul",
+      "item.minecraft.splash_potion.effect.lava_potion": "Splash Potion of Lava Potion",
+      "item.lavaluckyblockutil.lava_pickaxe": "Lava Pickaxe",
+      "item.minecraft.lingering_potion.effect.flight_potion": "Lingering Potion of Flight Potion",
       "item.minecraft.lingering_potion.effect.lava_potion": "Lingering Potion of Lava Potion",
       "item.lavaluckyblockutil.lava_dynomite": "Lava Dynomite",
       "item.lavaluckyblockutil.lava_armor_boots": "Lava Armor Boots",
-      "item.lavaluckyblockutil.speed_soul": "Speed Soul",
       "item.lavaluckyblockutil.haste_soul": "Haste Soul",
       "item.lavaluckyblockutil.jump_soul": "Jump Soul",
-      "item.lavaluckyblockutil.lava_apple": "Lava Apple",
       "item.lavaluckyblockutil.lava_armor_leggings": "Lava Armor Leggings",
-      "item.lavaluckyblockutil.regeneration_soul": "Regeneration Soul",
       "item.lavaluckyblockutil.lava_armor_chestplate": "Lava Armor Body",
       "item.lavaluckyblockutil.lava_sword": "Lava Sword",
       "item.lavaluckyblockutil.strength_soul": "Strength Soul",
