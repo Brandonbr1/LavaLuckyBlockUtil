@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "lavaluckyblockutil:items/lava_multitool"
+  }
+}

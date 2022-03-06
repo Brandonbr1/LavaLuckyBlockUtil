@@ -335,6 +335,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lavaamo"
+    },
+    {
+      "name": "LavaMultiTool",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_multi_tool"
     }
   ],
   "variable_elements": [],
@@ -347,6 +355,7 @@
       "effect.flight": "FlightEffect",
       "item.minecraft.tipped_arrow.effect.flight_potion": "Arrow of Flight Potion",
       "item.lavaluckyblockutil.speed_soul": "Speed Soul",
+      "item.lavaluckyblockutil.lava_multi_tool": "Lava Multi Tool",
       "item.minecraft.potion.effect.flight_potion": "Potion of Flight Potion",
       "item.minecraft.splash_potion.effect.flight_potion": "Splash Potion of Flight Potion",
       "item.lavaluckyblockutil.lava_apple": "Lava Apple",
