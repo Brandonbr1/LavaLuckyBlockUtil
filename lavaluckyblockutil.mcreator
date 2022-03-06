@@ -297,7 +297,12 @@
       "locked_code": false,
       "registry_name": "flight_procedure",
       "metadata": {
-        "dependencies": []
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
       }
     }
   ],

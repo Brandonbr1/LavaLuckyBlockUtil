@@ -5,10 +5,17 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.TickEvent;
 
 import net.minecraft.world.World;
+import net.minecraft.potion.EffectInstance;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
 import java.util.Map;
 import java.util.HashMap;
+import java.util.Collection;
+
+import io.github.brandonbr1.lavaluckyblockutil.potion.FlightPotionEffect;
+import io.github.brandonbr1.lavaluckyblockutil.LavaluckyblockutilMod;
 
 public class FlightProcedureProcedure {
 	@Mod.EventBusSubscriber
@@ -34,6 +41,28 @@ public class FlightProcedureProcedure {
 	}
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
-
+		if (dependencies.get("entity") == null) {
+			if (!dependencies.containsKey("entity"))
+				LavaluckyblockutilMod.LOGGER.warn("Failed to load dependency entity for procedure FlightProcedure!");
+			return;
+		}
+		Entity entity = (Entity) dependencies.get("entity");
+		if (!((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).abilities.isCreativeMode : false)) {
+			if (entity instanceof PlayerEntity) {
+				((PlayerEntity) entity).abilities.allowFlying = ((new Object() {
+					boolean check(Entity _entity) {
+						if (_entity instanceof LivingEntity) {
+							Collection<EffectInstance> effects = ((LivingEntity) _entity).getActivePotionEffects();
+							for (EffectInstance effect : effects) {
+								if (effect.getPotion() == FlightPotionEffect.potion)
+									return true;
+							}
+						}
+						return false;
+					}
+				}.check(entity)) == true);
+				((PlayerEntity) entity).sendPlayerAbilities();
+			}
+		}
 	}
 }
