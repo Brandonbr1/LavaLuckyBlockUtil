@@ -216,21 +216,80 @@
           }
         ]
       }
+    },
+    {
+      "name": "ResistanceSoulItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resistance_soul_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ResistanceSoul",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "resistance_soul"
+    },
+    {
+      "name": "HasteSoul",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "haste_soul"
+    },
+    {
+      "name": "JumpSoulItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_soul_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "JumpSoul",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jump_soul"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.lavaluckyblockutil.resistance_soul": "Resistance Soul",
       "item.minecraft.splash_potion.effect.lava_potion": "Splash Potion of Lava Potion",
       "item.lavaluckyblockutil.lava_armor_helmet": "Lava Armor Helmet",
-      "item.lavaluckyblockutil.lava_pickaxe": "Lava Pickaxe",
       "item.minecraft.potion.effect.lava_potion": "Potion of Lava Potion",
+      "item.lavaluckyblockutil.lava_pickaxe": "Lava Pickaxe",
       "item.minecraft.tipped_arrow.effect.lava_potion": "Arrow of Lava Potion",
       "item.minecraft.lingering_potion.effect.lava_potion": "Lingering Potion of Lava Potion",
       "item.lavaluckyblockutil.lava_dynomite": "Lava Dynomite",
       "item.lavaluckyblockutil.lava_armor_boots": "Lava Armor Boots",
       "item.lavaluckyblockutil.speed_soul": "Speed Soul",
+      "item.lavaluckyblockutil.haste_soul": "Haste Soul",
+      "item.lavaluckyblockutil.jump_soul": "Jump Soul",
       "item.lavaluckyblockutil.lava_apple": "Lava Apple",
       "item.lavaluckyblockutil.lava_armor_leggings": "Lava Armor Leggings",
       "item.lavaluckyblockutil.regeneration_soul": "Regeneration Soul",

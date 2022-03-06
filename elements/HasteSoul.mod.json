@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "regeneration_soul",
+    "texture": "hastesoul",
     "customModelName": "Normal",
-    "name": "Regeneration Soul",
+    "name": "Haste Soul",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "MISC"
@@ -29,9 +29,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInInventoryTick": {
-      "name": "RegenerationSoulItemInInventoryTick"
-    },
     "hasDispenseBehavior": false
   }
 }

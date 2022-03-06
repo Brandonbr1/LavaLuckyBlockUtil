@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "regeneration_soul",
+    "texture": "jumpsoul",
     "customModelName": "Normal",
-    "name": "Regeneration Soul",
+    "name": "Jump Soul",
     "rarity": "EPIC",
     "creativeTab": {
       "value": "MISC"
@@ -30,7 +30,7 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onItemInInventoryTick": {
-      "name": "RegenerationSoulItemInInventoryTick"
+      "name": "JumpSoulItemInInventoryTick"
     },
     "hasDispenseBehavior": false
   }

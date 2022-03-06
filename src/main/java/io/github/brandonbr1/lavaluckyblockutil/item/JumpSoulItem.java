@@ -16,16 +16,16 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-import io.github.brandonbr1.lavaluckyblockutil.procedures.RegenerationSoulItemInInventoryTickProcedure;
+import io.github.brandonbr1.lavaluckyblockutil.procedures.JumpSoulItemInInventoryTickProcedure;
 import io.github.brandonbr1.lavaluckyblockutil.LavaluckyblockutilModElements;
 
 @LavaluckyblockutilModElements.ModElement.Tag
-public class RegenerationSoulItem extends LavaluckyblockutilModElements.ModElement {
-	@ObjectHolder("lavaluckyblockutil:regeneration_soul")
+public class JumpSoulItem extends LavaluckyblockutilModElements.ModElement {
+	@ObjectHolder("lavaluckyblockutil:jump_soul")
 	public static final Item block = null;
 
-	public RegenerationSoulItem(LavaluckyblockutilModElements instance) {
-		super(instance, 12);
+	public JumpSoulItem(LavaluckyblockutilModElements instance) {
+		super(instance, 16);
 	}
 
 	@Override
@@ -36,7 +36,7 @@ public class RegenerationSoulItem extends LavaluckyblockutilModElements.ModEleme
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64).rarity(Rarity.EPIC));
-			setRegistryName("regeneration_soul");
+			setRegistryName("jump_soul");
 		}
 
 		@Override
@@ -61,8 +61,8 @@ public class RegenerationSoulItem extends LavaluckyblockutilModElements.ModEleme
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
 
-			RegenerationSoulItemInInventoryTickProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			JumpSoulItemInInventoryTickProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }
