@@ -290,27 +290,58 @@
       "registry_name": "flight_potion"
     },
     {
-      "name": "FlightProcedure",
+      "name": "FlightPotionProcedure",
       "type": "procedure",
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "flight_procedure",
+      "registry_name": "flight_potion_procedure",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "LavaamoProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaamo_projectile_hits_block",
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
+    },
+    {
+      "name": "Lavaamo",
+      "type": "rangeditem",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaamo"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.lavaluckyblockutil.lava_armor_helmet": "Lava Armor Helmet",
+      "item.lavaluckyblockutil.lavaamo": "Lava bazooka",
       "item.minecraft.potion.effect.lava_potion": "Potion of Lava Potion",
       "item.minecraft.tipped_arrow.effect.lava_potion": "Arrow of Lava Potion",
       "effect.flight": "FlightEffect",
@@ -319,6 +350,7 @@
       "item.minecraft.potion.effect.flight_potion": "Potion of Flight Potion",
       "item.minecraft.splash_potion.effect.flight_potion": "Splash Potion of Flight Potion",
       "item.lavaluckyblockutil.lava_apple": "Lava Apple",
+      "item.lavaluckyblockutil.lava_armor_helmetr": "Lava Armor Helmet",
       "item.lavaluckyblockutil.regeneration_soul": "Regeneration Soul",
       "item.lavaluckyblockutil.resistance_soul": "Resistance Soul",
       "item.minecraft.splash_potion.effect.lava_potion": "Splash Potion of Lava Potion",

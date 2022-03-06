@@ -2,13 +2,13 @@
   "_fv": 24,
   "_type": "rangeditem",
   "definition": {
-    "renderType": 0,
-    "texture": "lva_dynomite",
-    "customModelName": "Normal",
-    "name": "Lava Dynomite",
+    "renderType": 1,
+    "texture": "bazako",
+    "customModelName": "bazaka:default",
+    "name": "Lava bazooka",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "COMBAT"
     },
     "stackSize": 1,
     "ammoItem": {
@@ -23,7 +23,7 @@
     "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "bulletPower": 51.0,
+    "bulletPower": 1.0,
     "bulletDamage": 5.0,
     "bulletKnockback": 5,
     "bulletParticles": false,
@@ -32,9 +32,9 @@
       "value": "Blocks.TNT"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": "lva_dynomite.png",
+    "customBulletModelTexture": "new_piskel.png",
     "onBulletHitsBlock": {
-      "name": "LavaDynomiteProjectileHitsBlock"
+      "name": "LavaamoProjectileHitsBlock"
     }
   }
 }

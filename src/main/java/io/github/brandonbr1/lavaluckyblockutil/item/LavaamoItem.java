@@ -37,21 +37,21 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
-import io.github.brandonbr1.lavaluckyblockutil.procedures.LavaDynomiteProjectileHitsBlockProcedure;
-import io.github.brandonbr1.lavaluckyblockutil.entity.renderer.LavaDynomiteRenderer;
+import io.github.brandonbr1.lavaluckyblockutil.procedures.LavaamoProjectileHitsBlockProcedure;
+import io.github.brandonbr1.lavaluckyblockutil.entity.renderer.LavaamoRenderer;
 import io.github.brandonbr1.lavaluckyblockutil.LavaluckyblockutilModElements;
 
 @LavaluckyblockutilModElements.ModElement.Tag
-public class LavaDynomiteItem extends LavaluckyblockutilModElements.ModElement {
-	@ObjectHolder("lavaluckyblockutil:lava_dynomite")
+public class LavaamoItem extends LavaluckyblockutilModElements.ModElement {
+	@ObjectHolder("lavaluckyblockutil:lavaamo")
 	public static final Item block = null;
 	public static final EntityType arrow = (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-			.size(0.5f, 0.5f)).build("entitybulletlava_dynomite").setRegistryName("entitybulletlava_dynomite");
+			.size(0.5f, 0.5f)).build("entitybulletlavaamo").setRegistryName("entitybulletlavaamo");
 
-	public LavaDynomiteItem(LavaluckyblockutilModElements instance) {
-		super(instance, 8);
-		FMLJavaModLoadingContext.get().getModEventBus().register(new LavaDynomiteRenderer.ModelRegisterHandler());
+	public LavaamoItem(LavaluckyblockutilModElements instance) {
+		super(instance, 21);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new LavaamoRenderer.ModelRegisterHandler());
 	}
 
 	@Override
@@ -62,8 +62,8 @@ public class LavaDynomiteItem extends LavaluckyblockutilModElements.ModElement {
 
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(100));
-			setRegistryName("lava_dynomite");
+			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(100));
+			setRegistryName("lavaamo");
 		}
 
 		@Override
@@ -90,7 +90,7 @@ public class LavaDynomiteItem extends LavaluckyblockutilModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 51f, 5, 5);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 5, 5);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 				}
@@ -149,7 +149,7 @@ public class LavaDynomiteItem extends LavaluckyblockutilModElements.ModElement {
 			Entity imediatesourceentity = this;
 			if (this.inGround) {
 
-				LavaDynomiteProjectileHitsBlockProcedure.executeProcedure(Stream
+				LavaamoProjectileHitsBlockProcedure.executeProcedure(Stream
 						.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
 								new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 						.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
@@ -181,7 +181,7 @@ public class LavaDynomiteItem extends LavaluckyblockutilModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 51f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
 		entityarrow.setDamage(5);
 		entityarrow.setKnockbackStrength(5);
