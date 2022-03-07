@@ -39,7 +39,7 @@ public class LavaSwordItem extends LavaluckyblockutilModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 12f;
+				return 14f;
 			}
 
 			public int getHarvestLevel() {

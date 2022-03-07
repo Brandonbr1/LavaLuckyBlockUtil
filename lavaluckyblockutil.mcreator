@@ -343,6 +343,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lava_multi_tool"
+    },
+    {
+      "name": "LavaSythe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_sythe"
     }
   ],
   "variable_elements": [],
@@ -364,6 +372,7 @@
       "item.lavaluckyblockutil.resistance_soul": "Resistance Soul",
       "item.minecraft.splash_potion.effect.lava_potion": "Splash Potion of Lava Potion",
       "item.lavaluckyblockutil.lava_pickaxe": "Lava Pickaxe",
+      "item.lavaluckyblockutil.lava_sythe": "Lava Sythe",
       "item.minecraft.lingering_potion.effect.flight_potion": "Lingering Potion of Flight Potion",
       "item.minecraft.lingering_potion.effect.lava_potion": "Lingering Potion of Lava Potion",
       "item.lavaluckyblockutil.lava_dynomite": "Lava Dynomite",
