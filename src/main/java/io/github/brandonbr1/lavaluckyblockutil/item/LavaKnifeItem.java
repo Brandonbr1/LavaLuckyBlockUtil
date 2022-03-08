@@ -48,7 +48,7 @@ public class LavaKnifeItem extends LavaluckyblockutilModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(Items.LAVA_BUCKET));
 			}
-		}, 3, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
+		}, 3, 96f, new Item.Properties().group(ItemGroup.TOOLS)) {
 		}.setRegistryName("lava_knife"));
 	}
 }
