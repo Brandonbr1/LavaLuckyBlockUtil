@@ -1,7 +1,7 @@
 {
   "parent": "lavaluckyblockutil:custom/bazaka",
   "textures": {
-    "0": "lavaluckyblockutil:blocks/",
+    "0": "lavaluckyblockutil:blocks/texture",
     "missing": "lavaluckyblockutil:blocks/texture",
     "particle": "lavaluckyblockutil:items/bazako"
   }

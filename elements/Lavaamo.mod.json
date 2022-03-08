@@ -32,7 +32,7 @@
       "value": "Blocks.TNT"
     },
     "bulletModel": "Default",
-    "customBulletModelTexture": "new_piskel.png",
+    "customBulletModelTexture": "lva_dynomite.png",
     "onBulletHitsBlock": {
       "name": "LavaamoProjectileHitsBlock"
     }
