@@ -351,6 +351,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "lava_sythe"
+    },
+    {
+      "name": "LavaKnife",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_knife"
     }
   ],
   "variable_elements": [],
@@ -362,6 +370,7 @@
       "item.minecraft.tipped_arrow.effect.lava_potion": "Arrow of Lava Potion",
       "effect.flight": "FlightEffect",
       "item.minecraft.tipped_arrow.effect.flight_potion": "Arrow of Flight Potion",
+      "item.lavaluckyblockutil.lava_knife": "Lava Knife",
       "item.lavaluckyblockutil.speed_soul": "Speed Soul",
       "item.lavaluckyblockutil.lava_multi_tool": "Lava Multi Tool",
       "item.minecraft.potion.effect.flight_potion": "Potion of Flight Potion",
