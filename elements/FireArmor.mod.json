@@ -10,6 +10,15 @@
     "textureLeggings": "fire_leg",
     "enableBoots": true,
     "textureBoots": "fire_boots",
+    "onHelmetTick": {
+      "name": "FireArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "FireArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "FireArmorLeggingsTickEvent"
+    },
     "onBootsTick": {
       "name": "FireArmorBootsTickEvent"
     },

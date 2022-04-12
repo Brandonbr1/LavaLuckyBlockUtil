@@ -23,7 +23,10 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.AbstractMap;
 
+import io.github.brandonbr1.lavaluckyblockutil.procedures.FireArmorLeggingsTickEventProcedure;
+import io.github.brandonbr1.lavaluckyblockutil.procedures.FireArmorHelmetTickEventProcedure;
 import io.github.brandonbr1.lavaluckyblockutil.procedures.FireArmorBootsTickEventProcedure;
+import io.github.brandonbr1.lavaluckyblockutil.procedures.FireArmorBodyTickEventProcedure;
 import io.github.brandonbr1.lavaluckyblockutil.LavaluckyblockutilModElements;
 
 @LavaluckyblockutilModElements.ModElement.Tag
@@ -90,17 +93,48 @@ public class FireArmorItem extends LavaluckyblockutilModElements.ModElement {
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "lavaluckyblockutil:textures/models/armor/fire__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				super.onArmorTick(itemstack, world, entity);
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+
+				FireArmorHelmetTickEventProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			}
 		}.setRegistryName("fire_armor_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "lavaluckyblockutil:textures/models/armor/fire__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+
+				FireArmorBodyTickEventProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			}
 		}.setRegistryName("fire_armor_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(ItemGroup.COMBAT)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
 				return "lavaluckyblockutil:textures/models/armor/fire__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+			}
+
+			@Override
+			public void onArmorTick(ItemStack itemstack, World world, PlayerEntity entity) {
+				double x = entity.getPosX();
+				double y = entity.getPosY();
+				double z = entity.getPosZ();
+
+				FireArmorLeggingsTickEventProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+						(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 			}
 		}.setRegistryName("fire_armor_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(ItemGroup.COMBAT)) {
