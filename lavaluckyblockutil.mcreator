@@ -691,6 +691,48 @@
           }
         ]
       }
+    },
+    {
+      "name": "FireArmor",
+      "type": "armor",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "FireArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_armor_boots_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -698,11 +740,13 @@
   "language_map": {
     "en_us": {
       "item.lavaluckyblockutil.lavaamo": "Lava bazooka",
+      "item.lavaluckyblockutil.fire_armor_boots": "Fire Armor Boots",
       "item.lavaluckyblockutil.spicy_diritos": "Spicy Diritos",
       "item.lavaluckyblockutil.lava_bazaka": "Lava Bazaka",
       "item.lavaluckyblockutil.lava_armor_helmet": "Lava Armor Helmet",
       "item.minecraft.potion.effect.lava_potion": "Potion of Lava Potion",
       "item.minecraft.tipped_arrow.effect.lava_potion": "Arrow of Lava Potion",
+      "item.lavaluckyblockutil.fire_armor_helmet": "Fire Armor Helmet",
       "effect.flight": "FlightEffect",
       "item.lavaluckyblockutil.lava": "Lava Song",
       "item.lavaluckyblockutil.flaming_hotcheetos": "Flaming Hotcheetos",
@@ -711,6 +755,7 @@
       "item.lavaluckyblockutil.speed_soul": "Speed Soul",
       "item.lavaluckyblockutil.lava_multi_tool": "Lava Multi Tool",
       "item.minecraft.potion.effect.flight_potion": "Potion of Flight Potion",
+      "item.lavaluckyblockutil.fire_armor_leggings": "Fire Armor Leggings",
       "item.minecraft.splash_potion.effect.flight_potion": "Splash Potion of Flight Potion",
       "item.lavaluckyblockutil.lava_apple": "Lava Apple",
       "item.lavaluckyblockutil.lava_armor_helmetr": "Lava Armor Helmet",
@@ -733,6 +778,7 @@
       "item.lavaluckyblockutil.lava_armor_leggings": "Lava Armor Leggings",
       "item.lavaluckyblockutil.lava_armor_chestplate": "Lava Armor Body",
       "item.lavaluckyblockutil.lava_sword": "Lava Sword",
+      "item.lavaluckyblockutil.fire_armor_chestplate": "Fire Armor Chestplate",
       "item.lavaluckyblockutil.strength_soul": "Strength Soul",
       "block.lavaluckyblockutil.lava_tnt": "Lava TNT"
     }

@@ -15,7 +15,7 @@
       "value": ""
     },
     "shootConstantly": false,
-    "usageCount": 100,
+    "usageCount": 16,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },

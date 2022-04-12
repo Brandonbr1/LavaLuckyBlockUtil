@@ -62,7 +62,7 @@ public class ThrowableFireItem extends LavaluckyblockutilModElements.ModElement 
 
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(100));
+			super(new Item.Properties().group(ItemGroup.COMBAT).maxDamage(16));
 			setRegistryName("throwable_fire");
 		}
 
