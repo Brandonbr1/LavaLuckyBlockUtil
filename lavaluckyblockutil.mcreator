@@ -733,6 +733,38 @@
           }
         ]
       }
+    },
+    {
+      "name": "Explodeing",
+      "type": "tag",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explodeing"
+    },
+    {
+      "name": "Food",
+      "type": "tag",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "food"
+    },
+    {
+      "name": "LavaTools",
+      "type": "tag",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_tools"
+    },
+    {
+      "name": "LavaGear",
+      "type": "tag",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_gear"
     }
   ],
   "variable_elements": [],

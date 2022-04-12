@@ -1,0 +1,32 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:StrengthSoul"
+      },
+      {
+        "value": "CUSTOM:RegenerationSoul"
+      },
+      {
+        "value": "CUSTOM:ResistanceSoul"
+      },
+      {
+        "value": "CUSTOM:HasteSoul"
+      },
+      {
+        "value": "CUSTOM:JumpSoul"
+      },
+      {
+        "value": "CUSTOM:SpeedSoul"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "lava_orbs",
+    "namespace": "forge"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "lavaluckyblockutil:lava_armor_chestplate",
+    "lavaluckyblockutil:fire_armor_boots",
+    "lavaluckyblockutil:lava_armor_leggings",
+    "lavaluckyblockutil:fire_armor_leggings",
+    "lavaluckyblockutil:fire_armor_helmet",
+    "lavaluckyblockutil:lava_armor_boots",
+    "lavaluckyblockutil:fire_armor_chestplate",
+    "lavaluckyblockutil:lava_armor_helmet"
+  ]
+}

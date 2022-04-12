@@ -1,0 +1,38 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:FireArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:FireArmor.body"
+      },
+      {
+        "value": "CUSTOM:FireArmor.legs"
+      },
+      {
+        "value": "CUSTOM:FireArmor.boots"
+      },
+      {
+        "value": "CUSTOM:LavaArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:LavaArmor.body"
+      },
+      {
+        "value": "CUSTOM:LavaArmor.legs"
+      },
+      {
+        "value": "CUSTOM:LavaArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "lava_gear",
+    "namespace": "forge"
+  }
+}

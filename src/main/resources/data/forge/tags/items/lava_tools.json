@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lavaluckyblockutil:lava_sythe",
+    "lavaluckyblockutil:lava_knife",
+    "lavaluckyblockutil:lava_pickaxe",
+    "lavaluckyblockutil:lava_sword"
+  ]
+}

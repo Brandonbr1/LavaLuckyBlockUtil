@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:FlamingHotcheetos"
+      },
+      {
+        "value": "CUSTOM:SpicyDiritos"
+      },
+      {
+        "value": "CUSTOM:SpicyRamen"
+      },
+      {
+        "value": "CUSTOM:TrinidadMorugascorpionpepper"
+      },
+      {
+        "value": "CUSTOM:LavaApple"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "food",
+    "namespace": "forge"
+  }
+}

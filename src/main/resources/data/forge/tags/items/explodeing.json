@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "lavaluckyblockutil:fire_tnt",
+    "lavaluckyblockutil:lavaamo",
+    "lavaluckyblockutil:lava_dynomite",
+    "lavaluckyblockutil:lava_bazaka",
+    "lavaluckyblockutil:lava_tnt"
+  ]
+}

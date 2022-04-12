@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lavaluckyblockutil:regeneration_soul",
+    "lavaluckyblockutil:haste_soul",
+    "lavaluckyblockutil:jump_soul",
+    "lavaluckyblockutil:speed_soul",
+    "lavaluckyblockutil:strength_soul",
+    "lavaluckyblockutil:resistance_soul"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LavaBazaka"
+      },
+      {
+        "value": "CUSTOM:Lavaamo"
+      },
+      {
+        "value": "CUSTOM:LavaDynomite"
+      },
+      {
+        "value": "CUSTOM:FireTNT"
+      },
+      {
+        "value": "CUSTOM:LavaTNT"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "explodeing",
+    "namespace": "forge"
+  }
+}
