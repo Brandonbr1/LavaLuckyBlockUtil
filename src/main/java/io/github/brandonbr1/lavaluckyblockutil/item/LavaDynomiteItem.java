@@ -74,7 +74,7 @@ public class LavaDynomiteItem extends LavaluckyblockutilModElements.ModElement {
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.BOW;
+			return UseAction.NONE;
 		}
 
 		@Override
