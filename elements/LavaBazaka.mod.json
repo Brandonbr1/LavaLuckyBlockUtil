@@ -1,0 +1,40 @@
+{
+  "_fv": 24,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "bazakoitem",
+    "customModelName": "Normal",
+    "name": "Lava Bazaka",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 100,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "animation": "bow",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 5,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "Blocks.FLOWING_LAVA"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "new_piskel.png",
+    "onBulletHitsBlock": {
+      "name": "LavaBazakaProjectileHitsBlock"
+    }
+  }
+}

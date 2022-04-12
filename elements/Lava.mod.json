@@ -1,0 +1,17 @@
+{
+  "_fv": 24,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "lavasongtexture",
+    "name": "Lava Song",
+    "description": "Lava",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "music": {
+      "value": "block.lava.pop"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

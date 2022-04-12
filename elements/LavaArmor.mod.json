@@ -10,6 +10,18 @@
     "textureLeggings": "lava_leggins",
     "enableBoots": true,
     "textureBoots": "lava_boots",
+    "onHelmetTick": {
+      "name": "LavaArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "LavaArmorBodyTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "LavaArmorLeggingsTickEvent"
+    },
+    "onBootsTick": {
+      "name": "LavaArmorBootsTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
